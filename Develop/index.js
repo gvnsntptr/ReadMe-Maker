@@ -71,7 +71,7 @@ function writeToFile(fileName, data) {
 
     fs.appendFile('README.md', `${process.argv[2]}\n`, (err) =>
 
-    err ? console.error(err) : console.log('Commit logged!')
+    err ? console.error(err) : console.log('README file created!')
     );
 
 }
